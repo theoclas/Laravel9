@@ -1,0 +1,56 @@
+# Laravel
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+.env
+.env.*
+Homestead.yaml
+Homestead.json
+.phpunit.result.cache
+/.idea
+/.vscode
+/.phpunit.cache
+/.DS_Store
+
+# Laravel 8 y superiores
+/storage/app/public
+/storage/framework/cache/data
+/storage/framework/sessions
+/storage/framework/testing
+/storage/framework/views
+/storage/logs
+
+# Composer
+composer.lock
+composer.phar
+
+# NPM
+npm-debug.log
+yarn-error.log
+pnpm-lock.yaml
+
+# Laravel Mix
+/public/hot
+/public/mix-manifest.json
+/public/js/*.map
+/public/css/*.map
+
+# PHPUnit
+coverage/
+
+# Ignorar archivos generados por IDEs
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+.idea/
+.vscode/
+
+# Otros
+*.log
+*.zip
+*.tar.gz
+*.bak
+*.tmp
+*.swp
+*.swo
